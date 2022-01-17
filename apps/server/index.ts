@@ -1,7 +1,7 @@
 // import express, { request, Request, Response } from "express";
 import { MongoClient } from "mongodb";
 import { getAllUsers } from "./controllers/productController";
-import * as express from "express";
+import express from "express";
 import { Server } from "socket.io";
 import { createServer } from "http";
 
