@@ -9,7 +9,7 @@ var PORT = process.env.PORT || 3001;
 var app = express();
 var httpServer = (0, http_1.createServer)(app);
 app.get("/", function (req, res) {
-    return res.status(200).json({ message: "hey" });
+    return res.status(200).json({ message: "hey ab" });
 });
 httpServer.listen(PORT, function () {
     console.log("[express]: running on ".concat(PORT));
